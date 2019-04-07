@@ -1,0 +1,129 @@
+/* CSS Document */
+
+
+.monitor{transform: translateY(14%);display: block;margin: 0 auto;}
+
+.boder {
+	border-bottom: 1px solid #8C8C8C !important;
+	padding-bottom: 40px
+}
+
+.mainmenu {
+	margin-top: 20px
+}
+.mainmenu ul{}
+.mainmenu ul li{}
+.mainmenu ul li a{
+	color: #717171;
+	font-weight: 500;
+	padding: 20px 20px 20px 0;
+}
+.mainmenu ul li a:hover{
+	color: #2DCC70;
+	text-decoration: none;
+}
+
+/*
+.banner {
+	
+margin-top: 20px;
+}
+.banner .bannerbg{
+}
+.banner .monitor{
+	position: absolute;
+	top: 35%;
+	left: 16%;
+*/
+}
+
+body {
+	position: relative;
+}
+
+.twitter {
+	position: relative;
+}
+
+.hand {
+	
+position: absolute;
+	
+top: 17px;
+	
+left: 15px;
+}
+
+.portfolio {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.portfolio p {
+    color: #737373;
+    text-transform: uppercase;
+    width: 64%;
+    margin: 0 auto;
+}
+ .bt-custom{
+    color: #fff;
+    background: #2dcc70;
+    padding: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+
+
+.banner {
+	background: url("../images/bannerbg.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: right top;
+	/*! background-attachment: fixed; */
+	/*! height: 600px; */
+	margin-top: 25px;
+}
+
+.video {
+    margin-top: 50px;
+    background: #EFEFEF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.video h2{
+    color: #737373;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.video p{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.videoimg {
+    width: 450px;
+    margin-right: 10px;
+}
+
+.ready {background: #332F30;padding: 35px 0;}
+.ready h2{color: #EFEFEF;font-weight: 600;}
+.ready a{margin-top: 0 !important;padding: 15px 25px;/*! display: flex; */}
+footer {}
+footer p{color: #727272;margin: 15px 0;font-size: 13px;}
+footer ul{justify-content: end;}
+footer ul li{margin: 15px 0;}
+footer ul li a{color: #737373;font-size: 13px;}
+footer ul li::after{
+	content:"/";
+
+	margin: 0 10px;
+	color: #737373;
+}
+footer ul li:last-child::after{
+	content:none;}
+
+footer ul li a:hover{
+	color: #2DCC70;
+	text-decoration: none;
+}
+	
